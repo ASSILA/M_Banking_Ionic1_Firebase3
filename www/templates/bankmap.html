@@ -1,0 +1,19 @@
+<ion-view hide-back-button="false" title="Dashboard" hide-nav-bar="false">
+  <ion-content class="has-header">
+
+	<div class="padding">
+		My Dashboard
+	</div>
+  <ion-header-bar class="bar-stable">
+     <h1 class="title">Map</h1>
+   </ion-header-bar>
+
+   <ion-content scroll="false">
+     <map on-create="mapCreated(map)"></map>
+   </ion-content>
+
+   <ion-footer-bar class="bar-stable">
+     <a ng-click="centerOnMe()" class="button button-icon icon ion-navigate"></a>
+   </ion-footer-bar>
+  </ion-content>
+</ion-view>
